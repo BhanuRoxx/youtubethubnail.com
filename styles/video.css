@@ -1,0 +1,35 @@
+.grid-all{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+.thumbnail1{
+width: 100%;
+}
+.grid-preview{
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+.thumbnail1-description{
+
+font-family:Roboto,arial,sans-serif;
+font-size: 15px;
+margin-bottom: 0;
+margin-top: 0;
+font-style:normal;
+}
+.thumbnail1-author{
+margin-bottom: 0%;
+font-family:Roboto,arial,sans-serif;
+font-style:  rgb(65, 65, 65);
+font-size: 12px;
+}
+.thumbnail1-views{
+margin-top: 7px;
+font-size: 12px;
+font-style:rgb(65,65,65)
+}
+.logos{
+border-radius:50px;
+}
